@@ -1,5 +1,11 @@
 # opentok-react
 
+## TLDR
+
+This is a forked version of the [original opentok-react package](https://www.npmjs.com/package/opentok-react) with some security fixes.
+
+## Disclaimer
+
 This version has been published to allow the use of patches to security holes in the original opentok-react package while waiting for the original package to merge in the PR fixes that we submitted.
 
 I would recommend using the [original](https://www.npmjs.com/package/opentok-react) opentok-react package as this forked version of the package may or may not be updated depending on the need. If you also want to use opentok-react but wish to patch the current security holes then by all means use this version as is.
@@ -11,6 +17,8 @@ React components for OpenTok.js
 ## Contents
 
 - [opentok-react](#opentok-react)
+  - [TLDR](#tldr)
+  - [Disclaimer](#disclaimer)
   - [Contents](#contents)
   - [Pre-Requisites](#pre-requisites)
   - [Install](#install)
