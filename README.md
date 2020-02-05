@@ -2,7 +2,7 @@
 
 This version has been published to allow the use of patches to security holes in the original opentok-react package while waiting for the original package to merge in the PR fixes that we submitted.
 
-I would recommend using the original opentok-react package as this package may or may not be updated depending on the need. If you also want to use the package but wish to patch the security holes then by all means use this version as is.
+I would recommend using the [original](https://www.npmjs.com/package/opentok-react) opentok-react package as this package may or may not be updated depending on the need. If you also want to use the package but wish to patch the security holes then by all means use this version as is.
 
 [![npm version](https://badge.fury.io/js/opentok-react.svg)](https://badge.fury.io/js/opentok-react) [![Build Status](https://travis-ci.org/opentok/opentok-react.svg?branch=master)](https://travis-ci.org/opentok/opentok-react)
 
