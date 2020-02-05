@@ -1,28 +1,35 @@
 # opentok-react
 
+This version has been published to allow the use of patches to security holes in the original opentok-react package while waiting for the original package to merge in the PR fixes that we submitted.
+
+I would recommend using the original opentok-react package as this package may or may not be updated depending on the need. If you also want to use the package but wish to patch the security holes then by all means use this version as is.
+
 [![npm version](https://badge.fury.io/js/opentok-react.svg)](https://badge.fury.io/js/opentok-react) [![Build Status](https://travis-ci.org/opentok/opentok-react.svg?branch=master)](https://travis-ci.org/opentok/opentok-react)
 
 React components for OpenTok.js
 
 ## Contents
 
-- [Pre-Requisites](#pre-requisites)
-- [Install](#install)
-- [Example App](#example-app)
-- [Usage](#usage)
-  - [Importing opentok-react](#importing-opentok-react)
-  - [Example with OTSession Component](#example-with-otsession-component)
-  - [Example with createSession Helper](#example-with-createsession-helper)
-- [API Reference](#api-reference)
-  - [OTSession Component](#otsession-component)
-  - [OTPublisher Component](#otpublisher-component)
-  - [OTStreams Component](#otstreams-component)
-  - [OTSubscriber Component](#otsubscriber-component)
-  - [createSession Helper](#createsession-helper)
-  - [preloadScript Higher-Order Component](#preloadscript-higher-order-component)
-- [Custom Build](#custom-build)
-- [Contributing](#contributing)
-- [Tests](#tests)
+- [opentok-react](#opentok-react)
+  - [Contents](#contents)
+  - [Pre-Requisites](#pre-requisites)
+  - [Install](#install)
+  - [Example App](#example-app)
+  - [Usage](#usage)
+    - [Importing opentok-react](#importing-opentok-react)
+    - [Example with OTSession Component](#example-with-otsession-component)
+    - [Example with createSession Helper](#example-with-createsession-helper)
+  - [API Reference](#api-reference)
+    - [OTSession Component](#otsession-component)
+    - [OTPublisher Component](#otpublisher-component)
+    - [OTStreams Component](#otstreams-component)
+    - [OTSubscriber Component](#otsubscriber-component)
+    - [createSession Helper](#createsession-helper)
+    - [`preloadScript` Higher-Order Component](#preloadscript-higher-order-component)
+  - [Custom Build](#custom-build)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [About](#about)
 
 ## Pre-Requisites
 
